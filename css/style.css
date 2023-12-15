@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a{
+    text-decoration: none; 
+    font-family:"inter", "arial";
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+.wrapper{
+    max-width: 1280px;
+}
+
+.content{
+    display: flex;
+    padding-right: 26px;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style:none;
+    padding-left: 32px;
+}
+
+ul li .nav-a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.login-btn{
+    color: #000;
+    border: 1px solid #b7b3b3;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.login-btn:hover{
+    background: #6C63FF;
+    color: #fff;
+    border: 1px solid #6C63FF;
+}
+
+.registro-btn{
+    color: #fff;
+    background: #6C63FF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+}
